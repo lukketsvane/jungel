@@ -1,6 +1,8 @@
 
 import streamlit as st
 
-st.title("Hello, Streamlit!")
+# Import the main application
+from main import app_function
 
-st.write("This is a simple Streamlit app.")
+# Run the app function to launch the main application
+app_function()
